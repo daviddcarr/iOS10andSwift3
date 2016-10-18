@@ -11,8 +11,33 @@ import UIKit
 class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
 
     
+    @IBOutlet weak var pillImage: UIImageView!
+    @IBOutlet weak var pillLabel: UILabel!
+    @IBOutlet weak var pillCostLabel: UILabel!
+    @IBOutlet weak var horizontalLine: UIView!
+    
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var nameField: UITextField!
+    
+    @IBOutlet weak var streetLabel: UILabel!
+    @IBOutlet weak var streetField: UITextField!
+    
+    @IBOutlet weak var cityLabel: UILabel!
+    @IBOutlet weak var cityField: UITextField!
+    
+    @IBOutlet weak var stateLabel: UILabel!
     @IBOutlet weak var statePicker: UIPickerView!
     @IBOutlet weak var statePickerBtn: UIButton!
+    
+    @IBOutlet weak var countryLabel: UILabel!
+    @IBOutlet weak var countryField: UITextField!
+    
+    @IBOutlet weak var zipLabel: UILabel!
+    @IBOutlet weak var zipField: UITextField!
+    
+    @IBOutlet weak var buyNowBtn: UIButton!
+    @IBOutlet weak var successImage: UIImageView!
+    
     
     let states = [ "AK - Alaska",
                   "AL - Alabama",
@@ -85,6 +110,11 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
 
     @IBAction func stateBtnPressed(_ sender: AnyObject) {
         statePicker.isHidden = false
+        
+        countryField.isHidden = true
+        countryLabel.isHidden = true
+        zipField.isHidden = true
+        zipLabel.isHidden = true
     }
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
@@ -102,7 +132,33 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         statePickerBtn.setTitle(states[row], for: UIControlState.normal) //UIControlState()
         statePicker.isHidden = true
+        
+        countryField.isHidden = false
+        countryLabel.isHidden = false
+        zipField.isHidden = false
+        zipLabel.isHidden = false
     }
     
+    @IBAction func buyNowBtn(_ sender: AnyObject) {
+        pillImage.isHidden = true
+        pillLabel.isHidden = true
+        pillCostLabel.isHidden = true
+        horizontalLine.isHidden = true
+        nameField.isHidden = true
+        nameLabel.isHidden = true
+        streetLabel.isHidden = true
+        streetField.isHidden = true
+        cityLabel.isHidden = true
+        cityField.isHidden = true
+        stateLabel.isHidden = true
+        statePickerBtn.isHidden = true
+        countryField.isHidden = true
+        countryLabel.isHidden = true
+        zipField.isHidden = true
+        zipLabel.isHidden = true
+        buyNowBtn.isHidden = true
+        
+        successImage.isHidden = false
+    }
 }
 
