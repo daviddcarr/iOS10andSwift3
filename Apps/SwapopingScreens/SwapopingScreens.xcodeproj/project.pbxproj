@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE4147E61DB8F74200D9589E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4147E51DB8F74200D9589E /* AppDelegate.swift */; };
+		FE4147E81DB8F74200D9589E /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4147E71DB8F74200D9589E /* LoginVC.swift */; };
+		FE4147EB1DB8F74200D9589E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE4147E91DB8F74200D9589E /* Main.storyboard */; };
+		FE4147ED1DB8F74200D9589E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE4147EC1DB8F74200D9589E /* Assets.xcassets */; };
+		FE4147F01DB8F74200D9589E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE4147EE1DB8F74200D9589E /* LaunchScreen.storyboard */; };
+		FE4147F81DB8F8AF00D9589E /* MusicListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4147F71DB8F8AF00D9589E /* MusicListVC.swift */; };
+		FE4147FA1DB8FEF400D9589E /* PlaySongVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4147F91DB8FEF400D9589E /* PlaySongVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE4147E21DB8F74100D9589E /* SwapopingScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwapopingScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE4147E51DB8F74200D9589E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE4147E71DB8F74200D9589E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		FE4147EA1DB8F74200D9589E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE4147EC1DB8F74200D9589E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE4147EF1DB8F74200D9589E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE4147F11DB8F74200D9589E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE4147F71DB8F8AF00D9589E /* MusicListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVC.swift; sourceTree = "<group>"; };
+		FE4147F91DB8FEF400D9589E /* PlaySongVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySongVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE4147DF1DB8F74100D9589E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE4147D91DB8F74100D9589E = {
+			isa = PBXGroup;
+			children = (
+				FE4147E41DB8F74100D9589E /* SwapopingScreens */,
+				FE4147E31DB8F74100D9589E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE4147E31DB8F74100D9589E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE4147E21DB8F74100D9589E /* SwapopingScreens.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE4147E41DB8F74100D9589E /* SwapopingScreens */ = {
+			isa = PBXGroup;
+			children = (
+				FE4147E51DB8F74200D9589E /* AppDelegate.swift */,
+				FE4147E71DB8F74200D9589E /* LoginVC.swift */,
+				FE4147E91DB8F74200D9589E /* Main.storyboard */,
+				FE4147EC1DB8F74200D9589E /* Assets.xcassets */,
+				FE4147EE1DB8F74200D9589E /* LaunchScreen.storyboard */,
+				FE4147F11DB8F74200D9589E /* Info.plist */,
+				FE4147F71DB8F8AF00D9589E /* MusicListVC.swift */,
+				FE4147F91DB8FEF400D9589E /* PlaySongVC.swift */,
+			);
+			path = SwapopingScreens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE4147E11DB8F74100D9589E /* SwapopingScreens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE4147F41DB8F74200D9589E /* Build configuration list for PBXNativeTarget "SwapopingScreens" */;
+			buildPhases = (
+				FE4147DE1DB8F74100D9589E /* Sources */,
+				FE4147DF1DB8F74100D9589E /* Frameworks */,
+				FE4147E01DB8F74100D9589E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwapopingScreens;
+			productName = SwapopingScreens;
+			productReference = FE4147E21DB8F74100D9589E /* SwapopingScreens.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE4147DA1DB8F74100D9589E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = carrtoonist;
+				TargetAttributes = {
+					FE4147E11DB8F74100D9589E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2UZLP34WDS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FE4147DD1DB8F74100D9589E /* Build configuration list for PBXProject "SwapopingScreens" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE4147D91DB8F74100D9589E;
+			productRefGroup = FE4147E31DB8F74100D9589E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE4147E11DB8F74100D9589E /* SwapopingScreens */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE4147E01DB8F74100D9589E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4147F01DB8F74200D9589E /* LaunchScreen.storyboard in Resources */,
+				FE4147ED1DB8F74200D9589E /* Assets.xcassets in Resources */,
+				FE4147EB1DB8F74200D9589E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE4147DE1DB8F74100D9589E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE4147F81DB8F8AF00D9589E /* MusicListVC.swift in Sources */,
+				FE4147FA1DB8FEF400D9589E /* PlaySongVC.swift in Sources */,
+				FE4147E81DB8F74200D9589E /* LoginVC.swift in Sources */,
+				FE4147E61DB8F74200D9589E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE4147E91DB8F74200D9589E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE4147EA1DB8F74200D9589E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE4147EE1DB8F74200D9589E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE4147EF1DB8F74200D9589E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE4147F21DB8F74200D9589E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE4147F31DB8F74200D9589E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE4147F51DB8F74200D9589E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2UZLP34WDS;
+				INFOPLIST_FILE = SwapopingScreens/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carrtoonist.SwapopingScreens;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FE4147F61DB8F74200D9589E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2UZLP34WDS;
+				INFOPLIST_FILE = SwapopingScreens/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carrtoonist.SwapopingScreens;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE4147DD1DB8F74100D9589E /* Build configuration list for PBXProject "SwapopingScreens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE4147F21DB8F74200D9589E /* Debug */,
+				FE4147F31DB8F74200D9589E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE4147F41DB8F74200D9589E /* Build configuration list for PBXNativeTarget "SwapopingScreens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE4147F51DB8F74200D9589E /* Debug */,
+				FE4147F61DB8F74200D9589E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE4147DA1DB8F74100D9589E /* Project object */;
+}
