@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Microgramma-D-OT-Medium-Extended_30404.ttf">
+            <string>MicrogrammaDOT-MediumExtended</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--MainVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainVC" customModule="MusicianFanApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="currents" translatesAutoresizingMaskIntoConstraints="NO" id="M7e-CD-tCQ">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="175" id="JYb-gu-u74"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z87-aC-Eqm">
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="bZC-Jj-qda">
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GVF-q6-6ok">
+                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
+                                                <state key="normal" title="Top Videos">
+                                                    <color key="titleColor" red="0.67463942307692304" green="0.14533597088732206" blue="0.17392129056824698" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wav-AY-r1F">
+                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
+                                                <state key="normal" title="Top Songs">
+                                                    <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6q1-wU-Xxo">
+                                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="17"/>
+                                                <state key="normal" title="Events">
+                                                    <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="36" id="K7G-EM-8lH"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.77517950190101548" green="0.6896598888195451" blue="0.83709935897435894" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="8YY-NH-P47"/>
+                                    <constraint firstItem="bZC-Jj-qda" firstAttribute="top" secondItem="z87-aC-Eqm" secondAttribute="top" constant="3" id="TLT-gb-TvW"/>
+                                    <constraint firstAttribute="trailing" secondItem="bZC-Jj-qda" secondAttribute="trailing" constant="8" id="ohe-Ww-6le"/>
+                                    <constraint firstItem="bZC-Jj-qda" firstAttribute="leading" secondItem="z87-aC-Eqm" secondAttribute="leading" constant="8" id="wo7-l3-EmM"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="86" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hor-El-WRP">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="86" id="0cs-MR-Q09">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="86"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0cs-MR-Q09" id="ieA-vh-5na">
+                                            <frame key="frameInset" width="414" height="85"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="currents" translatesAutoresizingMaskIntoConstraints="NO" id="M4d-pb-Xls">
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="68" id="3Je-6H-95z"/>
+                                                        <constraint firstAttribute="height" constant="68" id="5jW-uU-4FN"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Less I Know The Better" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="26V-Wa-cm6">
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="36" id="AW9-5r-eNW"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="MicrogrammaDOT-MediumExtended" family="Microgramma D OT" pointSize="21"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="26V-Wa-cm6" firstAttribute="trailing" secondItem="ieA-vh-5na" secondAttribute="trailingMargin" id="4nR-rC-P6L"/>
+                                                <constraint firstItem="26V-Wa-cm6" firstAttribute="leading" secondItem="M4d-pb-Xls" secondAttribute="trailing" constant="8" id="4yD-Jp-4jb"/>
+                                                <constraint firstItem="26V-Wa-cm6" firstAttribute="centerY" secondItem="ieA-vh-5na" secondAttribute="centerY" id="KfH-AH-q0w"/>
+                                                <constraint firstItem="M4d-pb-Xls" firstAttribute="centerY" secondItem="ieA-vh-5na" secondAttribute="centerY" id="MJc-u9-THG"/>
+                                                <constraint firstItem="M4d-pb-Xls" firstAttribute="leading" secondItem="ieA-vh-5na" secondAttribute="leadingMargin" id="SV8-CX-5tD"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="M7e-CD-tCQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="0rb-MU-4ZR"/>
+                            <constraint firstItem="hor-El-WRP" firstAttribute="top" secondItem="z87-aC-Eqm" secondAttribute="bottom" id="81f-Q0-tJF"/>
+                            <constraint firstItem="hor-El-WRP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="A3m-9K-FO1"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hor-El-WRP" secondAttribute="bottom" id="Oju-dO-K9t"/>
+                            <constraint firstItem="z87-aC-Eqm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="PzO-fk-eaW"/>
+                            <constraint firstAttribute="trailing" secondItem="z87-aC-Eqm" secondAttribute="trailing" id="V6b-hF-D4j"/>
+                            <constraint firstItem="M7e-CD-tCQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="XdF-uC-Aw2"/>
+                            <constraint firstAttribute="trailing" secondItem="hor-El-WRP" secondAttribute="trailing" id="bwq-3V-y0D"/>
+                            <constraint firstAttribute="trailing" secondItem="M7e-CD-tCQ" secondAttribute="trailing" id="d8c-QT-OEt"/>
+                            <constraint firstItem="z87-aC-Eqm" firstAttribute="top" secondItem="M7e-CD-tCQ" secondAttribute="bottom" id="vbO-Bn-8yg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="IWg-2b-dPK" kind="showDetail" identifier="VideoVC" id="G2H-3y-TG4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="31.884057971014496" y="37.5"/>
+        </scene>
+        <!--VideoVC-->
+        <scene sceneID="B4l-RA-Qfe">
+            <objects>
+                <viewController id="IWg-2b-dPK" customClass="VideoVC" customModule="MusicianFanApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pfh-8g-4jt"/>
+                        <viewControllerLayoutGuide type="bottom" id="qpy-n0-uXt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YBB-Iu-nCk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lAI-7m-GRA">
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="219" id="Zgu-FO-yR2"/>
+                                </constraints>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lAI-7m-GRA" firstAttribute="top" secondItem="YBB-Iu-nCk" secondAttribute="top" id="UtI-7A-79b"/>
+                            <constraint firstAttribute="trailing" secondItem="lAI-7m-GRA" secondAttribute="trailing" id="aSA-gh-Tgx"/>
+                            <constraint firstItem="lAI-7m-GRA" firstAttribute="leading" secondItem="YBB-Iu-nCk" secondAttribute="leading" id="qtd-ci-Vlu"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DAt-dk-XYJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="873.91304347826099" y="37.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="currents" width="466" height="333"/>
+    </resources>
+</document>

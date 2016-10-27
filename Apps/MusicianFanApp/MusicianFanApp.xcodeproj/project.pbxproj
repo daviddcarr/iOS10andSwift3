@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE32876C1DC2379D00F170E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE32876B1DC2379D00F170E3 /* AppDelegate.swift */; };
+		FE32876E1DC2379D00F170E3 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE32876D1DC2379D00F170E3 /* MainVC.swift */; };
+		FE3287711DC2379D00F170E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE32876F1DC2379D00F170E3 /* Main.storyboard */; };
+		FE3287731DC2379D00F170E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE3287721DC2379D00F170E3 /* Assets.xcassets */; };
+		FE3287761DC2379D00F170E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE3287741DC2379D00F170E3 /* LaunchScreen.storyboard */; };
+		FE3287821DC23E0B00F170E3 /* Microgramma-D-OT-Bold-Extended_30403.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE3287801DC23E0B00F170E3 /* Microgramma-D-OT-Bold-Extended_30403.ttf */; };
+		FE3287831DC23E0B00F170E3 /* Microgramma-D-OT-Medium-Extended_30404.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE3287811DC23E0B00F170E3 /* Microgramma-D-OT-Medium-Extended_30404.ttf */; };
+		FE3287861DC23F1900F170E3 /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3287851DC23F1900F170E3 /* VideoVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE3287681DC2379D00F170E3 /* MusicianFanApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicianFanApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE32876B1DC2379D00F170E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE32876D1DC2379D00F170E3 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		FE3287701DC2379D00F170E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE3287721DC2379D00F170E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE3287751DC2379D00F170E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE3287771DC2379D00F170E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE3287801DC23E0B00F170E3 /* Microgramma-D-OT-Bold-Extended_30403.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Microgramma-D-OT-Bold-Extended_30403.ttf"; path = "../Microgramma-D-OT-Bold-Extended_30403.ttf"; sourceTree = "<group>"; };
+		FE3287811DC23E0B00F170E3 /* Microgramma-D-OT-Medium-Extended_30404.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Microgramma-D-OT-Medium-Extended_30404.ttf"; path = "../Microgramma-D-OT-Medium-Extended_30404.ttf"; sourceTree = "<group>"; };
+		FE3287851DC23F1900F170E3 /* VideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE3287651DC2379D00F170E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE32875F1DC2379D00F170E3 = {
+			isa = PBXGroup;
+			children = (
+				FE32876A1DC2379D00F170E3 /* MusicianFanApp */,
+				FE3287691DC2379D00F170E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE3287691DC2379D00F170E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE3287681DC2379D00F170E3 /* MusicianFanApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE32876A1DC2379D00F170E3 /* MusicianFanApp */ = {
+			isa = PBXGroup;
+			children = (
+				FE3287841DC23E1200F170E3 /* Files */,
+				FE32877F1DC2382400F170E3 /* Model */,
+				FE32877E1DC2381B00F170E3 /* View */,
+				FE32877D1DC2380500F170E3 /* Controller */,
+				FE32876B1DC2379D00F170E3 /* AppDelegate.swift */,
+				FE32876F1DC2379D00F170E3 /* Main.storyboard */,
+				FE3287741DC2379D00F170E3 /* LaunchScreen.storyboard */,
+				FE3287721DC2379D00F170E3 /* Assets.xcassets */,
+				FE3287771DC2379D00F170E3 /* Info.plist */,
+			);
+			path = MusicianFanApp;
+			sourceTree = "<group>";
+		};
+		FE32877D1DC2380500F170E3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FE32876D1DC2379D00F170E3 /* MainVC.swift */,
+				FE3287851DC23F1900F170E3 /* VideoVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		FE32877E1DC2381B00F170E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		FE32877F1DC2382400F170E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FE3287841DC23E1200F170E3 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE3287801DC23E0B00F170E3 /* Microgramma-D-OT-Bold-Extended_30403.ttf */,
+				FE3287811DC23E0B00F170E3 /* Microgramma-D-OT-Medium-Extended_30404.ttf */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE3287671DC2379D00F170E3 /* MusicianFanApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE32877A1DC2379D00F170E3 /* Build configuration list for PBXNativeTarget "MusicianFanApp" */;
+			buildPhases = (
+				FE3287641DC2379D00F170E3 /* Sources */,
+				FE3287651DC2379D00F170E3 /* Frameworks */,
+				FE3287661DC2379D00F170E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicianFanApp;
+			productName = MusicianFanApp;
+			productReference = FE3287681DC2379D00F170E3 /* MusicianFanApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE3287601DC2379D00F170E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = carrtoonist;
+				TargetAttributes = {
+					FE3287671DC2379D00F170E3 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2UZLP34WDS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FE3287631DC2379D00F170E3 /* Build configuration list for PBXProject "MusicianFanApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE32875F1DC2379D00F170E3;
+			productRefGroup = FE3287691DC2379D00F170E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE3287671DC2379D00F170E3 /* MusicianFanApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE3287661DC2379D00F170E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3287831DC23E0B00F170E3 /* Microgramma-D-OT-Medium-Extended_30404.ttf in Resources */,
+				FE3287761DC2379D00F170E3 /* LaunchScreen.storyboard in Resources */,
+				FE3287821DC23E0B00F170E3 /* Microgramma-D-OT-Bold-Extended_30403.ttf in Resources */,
+				FE3287731DC2379D00F170E3 /* Assets.xcassets in Resources */,
+				FE3287711DC2379D00F170E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE3287641DC2379D00F170E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3287861DC23F1900F170E3 /* VideoVC.swift in Sources */,
+				FE32876E1DC2379D00F170E3 /* MainVC.swift in Sources */,
+				FE32876C1DC2379D00F170E3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE32876F1DC2379D00F170E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE3287701DC2379D00F170E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE3287741DC2379D00F170E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE3287751DC2379D00F170E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE3287781DC2379D00F170E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE3287791DC2379D00F170E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE32877B1DC2379D00F170E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2UZLP34WDS;
+				INFOPLIST_FILE = MusicianFanApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carrtoonist.MusicianFanApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FE32877C1DC2379D00F170E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2UZLP34WDS;
+				INFOPLIST_FILE = MusicianFanApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.carrtoonist.MusicianFanApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE3287631DC2379D00F170E3 /* Build configuration list for PBXProject "MusicianFanApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE3287781DC2379D00F170E3 /* Debug */,
+				FE3287791DC2379D00F170E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE32877A1DC2379D00F170E3 /* Build configuration list for PBXNativeTarget "MusicianFanApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE32877B1DC2379D00F170E3 /* Debug */,
+				FE32877C1DC2379D00F170E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE3287601DC2379D00F170E3 /* Project object */;
+}
