@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE313F121DC387340033B068 /* MusicianCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE313F111DC387340033B068 /* MusicianCell.swift */; };
+		FE313F141DC38AE40033B068 /* MusicianData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE313F131DC38AE40033B068 /* MusicianData.swift */; };
 		FE32876C1DC2379D00F170E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE32876B1DC2379D00F170E3 /* AppDelegate.swift */; };
 		FE32876E1DC2379D00F170E3 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE32876D1DC2379D00F170E3 /* MainVC.swift */; };
 		FE3287711DC2379D00F170E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE32876F1DC2379D00F170E3 /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE313F111DC387340033B068 /* MusicianCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicianCell.swift; sourceTree = "<group>"; };
+		FE313F131DC38AE40033B068 /* MusicianData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicianData.swift; sourceTree = "<group>"; };
 		FE3287681DC2379D00F170E3 /* MusicianFanApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicianFanApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE32876B1DC2379D00F170E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE32876D1DC2379D00F170E3 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -85,6 +89,7 @@
 		FE32877E1DC2381B00F170E3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FE313F111DC387340033B068 /* MusicianCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -92,6 +97,7 @@
 		FE32877F1DC2382400F170E3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FE313F131DC38AE40033B068 /* MusicianData.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -182,6 +188,8 @@
 			files = (
 				FE3287861DC23F1900F170E3 /* VideoVC.swift in Sources */,
 				FE32876E1DC2379D00F170E3 /* MainVC.swift in Sources */,
+				FE313F141DC38AE40033B068 /* MusicianData.swift in Sources */,
+				FE313F121DC387340033B068 /* MusicianCell.swift in Sources */,
 				FE32876C1DC2379D00F170E3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +354,7 @@
 				FE32877C1DC2379D00F170E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

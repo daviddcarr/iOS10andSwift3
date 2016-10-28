@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MusicianFanApp/MusicianCell.swift"
+            timestampString = "499361387.269973"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "updateUI(musicianData:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MusicianFanApp.MusicianCell.(updateUI (musicianData : MusicianFanApp.MusicianData) -&gt; ()).(closure #1)"
+                  moduleName = "MusicianFanApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidcarr/Documents/Educational%20Projects/Swift/Code/Apps/MusicianFanApp/MusicianFanApp/MusicianCell.swift"
+                  timestampString = "499361388.338356"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MusicianFanApp.MusicianCell.(updateUI (musicianData : MusicianFanApp.MusicianData) -&gt; ()).(closure #1).(closure #1)"
+                  moduleName = "MusicianFanApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidcarr/Documents/Educational%20Projects/Swift/Code/Apps/MusicianFanApp/MusicianFanApp/MusicianCell.swift"
+                  timestampString = "499361388.340178"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MusicianFanApp/MusicianCell.swift"
+            timestampString = "499361543.845479"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "MusicianCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MusicianFanApp.MusicianCell.videoPreviewImage.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIImageView&gt;"
+                  moduleName = "MusicianFanApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidcarr/Documents/Educational%20Projects/Swift/Code/Apps/MusicianFanApp/MusicianFanApp/MusicianCell.swift"
+                  timestampString = "499361430.64554"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MusicianFanApp.MusicianCell.videoPreviewImage.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIImageView&gt;"
+                  moduleName = "MusicianFanApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidcarr/Documents/Educational%20Projects/Swift/Code/Apps/MusicianFanApp/MusicianFanApp/MusicianCell.swift"
+                  timestampString = "499361430.647364"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MusicianFanApp.MusicianCell.init (style : __C.UITableViewCellStyle, reuseIdentifier : Swift.Optional&lt;Swift.String&gt;) -&gt; MusicianFanApp.MusicianCell"
+                  moduleName = "MusicianFanApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidcarr/Documents/Educational%20Projects/Swift/Code/Apps/MusicianFanApp/MusicianFanApp/MusicianCell.swift"
+                  timestampString = "499361430.649227"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MusicianFanApp.MusicianCell.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;MusicianFanApp.MusicianCell&gt;"
+                  moduleName = "MusicianFanApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/davidcarr/Documents/Educational%20Projects/Swift/Code/Apps/MusicianFanApp/MusicianFanApp/MusicianCell.swift"
+                  timestampString = "499361430.651115"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MusicianFanApp/VideoVC.swift"
+            timestampString = "499366339.627832"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "VideoVC"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

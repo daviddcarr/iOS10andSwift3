@@ -46,5 +46,10 @@
 		<string>Microgramma-D-OT-Bold-Extended_30403.ttf</string>
 		<string>Microgramma-D-OT-Medium-Extended_30404.ttf</string>
 	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>
