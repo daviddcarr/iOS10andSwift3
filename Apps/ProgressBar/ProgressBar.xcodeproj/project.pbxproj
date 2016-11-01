@@ -14,6 +14,8 @@
 		FE313F521DC8CE840033B068 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE313F501DC8CE840033B068 /* LaunchScreen.storyboard */; };
 		FE313F5D1DC8CF070033B068 /* ProgressBarDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE313F5C1DC8CF070033B068 /* ProgressBarDraw.swift */; };
 		FE313F5F1DC8CF4A0033B068 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE313F5E1DC8CF4A0033B068 /* ProgressBarView.swift */; };
+		FE313F651DC8DF190033B068 /* RedGateDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE313F641DC8DF190033B068 /* RedGateDraw.swift */; };
+		FE313F671DC8DF900033B068 /* RedGateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE313F661DC8DF900033B068 /* RedGateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		FE313F531DC8CE840033B068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE313F5C1DC8CF070033B068 /* ProgressBarDraw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBarDraw.swift; sourceTree = "<group>"; };
 		FE313F5E1DC8CF4A0033B068 /* ProgressBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		FE313F641DC8DF190033B068 /* RedGateDraw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedGateDraw.swift; sourceTree = "<group>"; };
+		FE313F661DC8DF900033B068 /* RedGateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedGateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +85,10 @@
 		FE313F5A1DC8CE950033B068 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FE313F641DC8DF190033B068 /* RedGateDraw.swift */,
 				FE313F5C1DC8CF070033B068 /* ProgressBarDraw.swift */,
 				FE313F5E1DC8CF4A0033B068 /* ProgressBarView.swift */,
+				FE313F661DC8DF900033B068 /* RedGateView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -170,6 +176,8 @@
 				FE313F5D1DC8CF070033B068 /* ProgressBarDraw.swift in Sources */,
 				FE313F5F1DC8CF4A0033B068 /* ProgressBarView.swift in Sources */,
 				FE313F4A1DC8CE840033B068 /* ViewController.swift in Sources */,
+				FE313F671DC8DF900033B068 /* RedGateView.swift in Sources */,
+				FE313F651DC8DF190033B068 /* RedGateDraw.swift in Sources */,
 				FE313F481DC8CE840033B068 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +342,7 @@
 				FE313F581DC8CE840033B068 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

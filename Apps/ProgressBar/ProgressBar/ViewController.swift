@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var progressBarView: ProgressBarView!
+    @IBOutlet weak var redGateView: RedGateView!
     @IBOutlet weak var slider: UISlider!
     
     override func viewDidLoad() {
@@ -20,6 +21,8 @@ class ViewController: UIViewController {
 
     @IBAction func sliderMoved(_ sender: Any) {
         progressBarView.progress = CGFloat(slider.value)
+        redGateView.progressLeft = CGFloat(slider.value)
+        redGateView.progressRight = CGFloat(slider.value)
     }
 
 }
