@@ -21,6 +21,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Carina_Nebula_by_ESO" translatesAutoresizingMaskIntoConstraints="NO" id="mOI-DP-e23">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dpi-0x-dBD">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <subviews>
@@ -53,9 +57,23 @@
                                             <constraint firstAttribute="height" constant="150" id="z8d-c8-Qgr"/>
                                         </constraints>
                                     </stackView>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="j2C-Hz-F2J">
+                                        <rect key="frame" x="58" y="655" width="298" height="31"/>
+                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="wRM-Lx-FSH"/>
+                                            <constraint firstAttribute="width" constant="294" id="yIx-Da-MC6"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="alphaSliderMoved:" destination="BYZ-38-t0r" eventType="valueChanged" id="ewk-7G-DRj"/>
+                                            <action selector="blueSliderMoved:" destination="BYZ-38-t0r" eventType="valueChanged" id="cYs-ae-Uqv"/>
+                                        </connections>
+                                    </slider>
                                 </subviews>
                                 <color key="backgroundColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="j2C-Hz-F2J" firstAttribute="centerX" secondItem="dpi-0x-dBD" secondAttribute="centerX" id="GCW-Ui-8wM"/>
+                                    <constraint firstAttribute="bottom" secondItem="j2C-Hz-F2J" secondAttribute="bottom" constant="51" id="Tn2-Of-rCf"/>
                                     <constraint firstItem="0gs-eE-1IN" firstAttribute="centerX" secondItem="dpi-0x-dBD" secondAttribute="centerX" id="k6j-Pp-xfG"/>
                                     <constraint firstItem="0gs-eE-1IN" firstAttribute="centerY" secondItem="dpi-0x-dBD" secondAttribute="centerY" id="n2J-pB-994"/>
                                 </constraints>
@@ -70,6 +88,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="alphaSlider" destination="j2C-Hz-F2J" id="Hbb-va-dJ9"/>
                         <outlet property="blueSlider" destination="Kh7-Kq-Ump" id="3D5-nF-p7o"/>
                         <outlet property="colorView" destination="dpi-0x-dBD" id="4HB-yU-2EU"/>
                         <outlet property="greenSlider" destination="3ei-Kc-Fcr" id="RsP-9a-T3K"/>
@@ -78,7 +97,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="135" y="138.75"/>
+            <point key="canvasLocation" x="134.78260869565219" y="138.58695652173915"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Carina_Nebula_by_ESO" width="2755" height="2732"/>
+    </resources>
 </document>
