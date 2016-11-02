@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RGB_Slider" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dpi-0x-dBD">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="0gs-eE-1IN">
+                                        <rect key="frame" x="60" y="293" width="294" height="150"/>
+                                        <subviews>
+                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="hr4-bW-aIh">
+                                                <rect key="frame" x="-2" y="0.0" width="298" height="31"/>
+                                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <action selector="redSliderMoved:" destination="BYZ-38-t0r" eventType="valueChanged" id="8rQ-NT-M6D"/>
+                                                </connections>
+                                            </slider>
+                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="3ei-Kc-Fcr">
+                                                <rect key="frame" x="-2" y="60" width="298" height="31"/>
+                                                <color key="tintColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <connections>
+                                                    <action selector="greenSliderMoved:" destination="BYZ-38-t0r" eventType="valueChanged" id="zaz-iA-Hf0"/>
+                                                </connections>
+                                            </slider>
+                                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Kh7-Kq-Ump">
+                                                <rect key="frame" x="-2" y="120" width="298" height="31"/>
+                                                <connections>
+                                                    <action selector="blueSliderMoved:" destination="BYZ-38-t0r" eventType="valueChanged" id="tAq-Z7-bWi"/>
+                                                </connections>
+                                            </slider>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="294" id="sLo-PY-PgY"/>
+                                            <constraint firstAttribute="height" constant="150" id="z8d-c8-Qgr"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="0gs-eE-1IN" firstAttribute="centerX" secondItem="dpi-0x-dBD" secondAttribute="centerX" id="k6j-Pp-xfG"/>
+                                    <constraint firstItem="0gs-eE-1IN" firstAttribute="centerY" secondItem="dpi-0x-dBD" secondAttribute="centerY" id="n2J-pB-994"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dpi-0x-dBD" secondAttribute="bottom" id="6Cd-xJ-dA2"/>
+                            <constraint firstItem="dpi-0x-dBD" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="GNe-Rh-tVK"/>
+                            <constraint firstItem="dpi-0x-dBD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="RN4-tk-8oq"/>
+                            <constraint firstAttribute="trailing" secondItem="dpi-0x-dBD" secondAttribute="trailing" id="vLy-d1-QeD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="blueSlider" destination="Kh7-Kq-Ump" id="3D5-nF-p7o"/>
+                        <outlet property="colorView" destination="dpi-0x-dBD" id="4HB-yU-2EU"/>
+                        <outlet property="greenSlider" destination="3ei-Kc-Fcr" id="RsP-9a-T3K"/>
+                        <outlet property="redSlider" destination="hr4-bW-aIh" id="sCK-b7-oBM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="135" y="138.75"/>
+        </scene>
+    </scenes>
+</document>

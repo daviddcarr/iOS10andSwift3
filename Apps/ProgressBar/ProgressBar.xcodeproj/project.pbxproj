@@ -16,6 +16,8 @@
 		FE313F5F1DC8CF4A0033B068 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE313F5E1DC8CF4A0033B068 /* ProgressBarView.swift */; };
 		FE313F651DC8DF190033B068 /* RedGateDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE313F641DC8DF190033B068 /* RedGateDraw.swift */; };
 		FE313F671DC8DF900033B068 /* RedGateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE313F661DC8DF900033B068 /* RedGateView.swift */; };
+		FE313F691DC8EFDC0033B068 /* SpinningCirclesDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE313F681DC8EFDC0033B068 /* SpinningCirclesDraw.swift */; };
+		FE313F6B1DC8EFED0033B068 /* SpinningCirclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE313F6A1DC8EFED0033B068 /* SpinningCirclesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		FE313F5E1DC8CF4A0033B068 /* ProgressBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
 		FE313F641DC8DF190033B068 /* RedGateDraw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedGateDraw.swift; sourceTree = "<group>"; };
 		FE313F661DC8DF900033B068 /* RedGateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedGateView.swift; sourceTree = "<group>"; };
+		FE313F681DC8EFDC0033B068 /* SpinningCirclesDraw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinningCirclesDraw.swift; sourceTree = "<group>"; };
+		FE313F6A1DC8EFED0033B068 /* SpinningCirclesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinningCirclesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +89,12 @@
 		FE313F5A1DC8CE950033B068 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FE313F681DC8EFDC0033B068 /* SpinningCirclesDraw.swift */,
 				FE313F641DC8DF190033B068 /* RedGateDraw.swift */,
 				FE313F5C1DC8CF070033B068 /* ProgressBarDraw.swift */,
 				FE313F5E1DC8CF4A0033B068 /* ProgressBarView.swift */,
 				FE313F661DC8DF900033B068 /* RedGateView.swift */,
+				FE313F6A1DC8EFED0033B068 /* SpinningCirclesView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -175,10 +181,12 @@
 			files = (
 				FE313F5D1DC8CF070033B068 /* ProgressBarDraw.swift in Sources */,
 				FE313F5F1DC8CF4A0033B068 /* ProgressBarView.swift in Sources */,
+				FE313F6B1DC8EFED0033B068 /* SpinningCirclesView.swift in Sources */,
 				FE313F4A1DC8CE840033B068 /* ViewController.swift in Sources */,
 				FE313F671DC8DF900033B068 /* RedGateView.swift in Sources */,
 				FE313F651DC8DF190033B068 /* RedGateDraw.swift in Sources */,
 				FE313F481DC8CE840033B068 /* AppDelegate.swift in Sources */,
+				FE313F691DC8EFDC0033B068 /* SpinningCirclesDraw.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

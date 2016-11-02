@@ -36,23 +36,33 @@
                                 </connections>
                             </slider>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ggp-R2-wWt" customClass="RedGateView" customModule="ProgressBar" customModuleProvider="target">
-                                <rect key="frame" x="115" y="114" width="144" height="72"/>
+                                <rect key="frame" x="115" y="511" width="144" height="72"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="144" id="J1g-Jj-kkf"/>
                                     <constraint firstAttribute="height" constant="72" id="lBF-S2-z80"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m82-XO-SbV" customClass="SpinningCirclesView" customModule="ProgressBar" customModuleProvider="target">
+                                <rect key="frame" x="37" y="20" width="300" height="300"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="Ete-Cc-uBp"/>
+                                    <constraint firstAttribute="width" constant="300" id="sBk-ZG-k1a"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="m82-XO-SbV" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="5fH-Vg-lrL"/>
                             <constraint firstItem="S4g-8V-93S" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="304" id="7dV-VU-qqP"/>
                             <constraint firstItem="tET-f0-Tci" firstAttribute="top" secondItem="S4g-8V-93S" secondAttribute="bottom" constant="75" id="JEl-On-0l0"/>
+                            <constraint firstItem="m82-XO-SbV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ova-l0-ywn"/>
                             <constraint firstAttribute="trailingMargin" secondItem="tET-f0-Tci" secondAttribute="trailing" id="RkU-0E-vr4"/>
                             <constraint firstAttribute="trailingMargin" secondItem="S4g-8V-93S" secondAttribute="trailing" id="V5S-SN-9SL"/>
-                            <constraint firstItem="Ggp-R2-wWt" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="94" id="Zn3-C6-gic"/>
                             <constraint firstItem="Ggp-R2-wWt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="afI-AV-qDK"/>
                             <constraint firstItem="tET-f0-Tci" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="dD9-cc-RA2"/>
+                            <constraint firstItem="Ggp-R2-wWt" firstAttribute="top" secondItem="tET-f0-Tci" secondAttribute="bottom" constant="64" id="mAq-Li-85h"/>
                             <constraint firstItem="S4g-8V-93S" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="uyN-ei-d2F"/>
                         </constraints>
                     </view>
@@ -60,6 +70,7 @@
                         <outlet property="progressBarView" destination="S4g-8V-93S" id="9Iy-OZ-ed5"/>
                         <outlet property="redGateView" destination="Ggp-R2-wWt" id="71d-qb-qQO"/>
                         <outlet property="slider" destination="tET-f0-Tci" id="kfw-bI-nzJ"/>
+                        <outlet property="spinningCirclesView" destination="m82-XO-SbV" id="jc0-Qx-njY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
