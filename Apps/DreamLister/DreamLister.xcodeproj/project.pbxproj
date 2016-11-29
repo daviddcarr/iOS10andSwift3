@@ -167,8 +167,8 @@
 				TargetAttributes = {
 					FE313F921DCB6EA20033B068 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 2UZLP34WDS;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = YW7WAXWE49;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -345,7 +345,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2UZLP34WDS;
+				DEVELOPMENT_TEAM = YW7WAXWE49;
 				INFOPLIST_FILE = DreamLister/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.carrtoonist.DreamLister;
@@ -358,7 +358,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2UZLP34WDS;
+				DEVELOPMENT_TEAM = YW7WAXWE49;
 				INFOPLIST_FILE = DreamLister/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.carrtoonist.DreamLister;
